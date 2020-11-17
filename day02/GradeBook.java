@@ -40,6 +40,22 @@ public class GradeBook {
 	void setMath(int math) {
 		this.math = math;
 	}
+	
+	int total;
+	int getTotal() {
+		return total;
+	}	
+	void setTotal(int total) {
+		this.total = total;
+	}
+	
+	double average;
+	double getAverage() {
+		return average;
+	}
+	void setAverage(double average) {
+		this.average = average;
+	}
 
 }
 

@@ -16,5 +16,12 @@ public class BMI {
 	void setHeight(double height) {
 		this.height = height;
 	}
+	double result;
+	double getResult() {
+		return result;
+	}
+	void setResult(double result) {
+		this.result = result;
+	}
 
 }
